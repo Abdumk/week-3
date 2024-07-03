@@ -1,0 +1,103 @@
+/* example of display properties for inline that mean just put side by side
+as due to ordered
+2nd ex is flex mean that just put side by side randomly
+.puppy1{
+    display: inline-block;
+}
+.missing-wrapper{
+    display: inline-block;
+}
+.puppy-2{
+    display: inline-block;
+}*/
+img {
+  max-width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*.additional-puppies {
+  display: flex;
+}*/
+
+.myHeader {
+  padding-top: 17px;
+  padding-bottom: 14px;
+  color: white;
+  text-align: center;
+}
+
+.blueBG {
+  background-color: #085070;
+}
+#banner {
+  margin-bottom: 24px;
+}
+
+#banner img {
+  width: 100%;
+}
+.puppies-section {
+  display: flex;
+  justify-content: space-between;
+}
+.puppy1,
+.missing-puppy,
+.puppy-2 {
+  width: 33%;
+}
+.puppy1 img,
+.missing-puppy img,
+.puppy-2 img {
+  width: 100%;
+}
+/* try the padding and marign*/
+.puppies-section,
+.fixed-container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.more-puppies-warpper {
+  display: flex;
+}
+
+footer {
+  padding-top: 70px;
+  padding-bottom: 75px;
+  margin-top: 55px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.puppies-section {
+  text-align: center;
+  font-size: 10px;
+  padding: 70px;
+}
+.missing-puppy {
+  background-color: red;
+  margin: 0 2%;
+  /* border: 5px solid yellow; */
+}
+.additional-puppies h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.missing-wrapper {
+  font-size: 27px;
+  padding: 83px 75px 105px;
+  text-align: center;
+}
+.more-vertical-puppy1 {
+  margin: right 20px;
+}
+.more-vertical-puppy2 {
+  margin-left: 30px;
+}
